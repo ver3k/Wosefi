@@ -4,11 +4,11 @@
     align-items:center;
     height:3rem;
     gap:3rem;
-    background:red;
+    background:green;
 }
 
 .logo {
-    font-size: 2rem;!!!
+    font-size: 2rem;
     font-family: 'Vidaloka', serif;
 }
 
