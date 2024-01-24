@@ -1,9 +1,105 @@
-.front {
-    background: green;
+.hero {
+    text-align: center;
+    padding: 100px 0;
 }
 
-button{
-    color:blue;
-    width:20rem;
-
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
 }
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background: #fff;
+    color: #253231;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+    .cta-button:hover {
+        background: #8f94fb;
+        color: #fff;
+    }
+
+/* Promoter section styling */
+.promoter-section {
+    background: #f9f9f9;
+    padding: 100px 0;
+    color: #253231;
+}
+
+.promoter-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promoter-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+    .promoter-info h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .promoter-info p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .promoter-info ul {
+        list-style-type: none;
+        margin-bottom: 20px;
+    }
+
+        .promoter-info ul li {
+            margin-bottom: 15px;
+        }
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background: #fff;
+    color: #253231;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+    .cta-button:hover {
+        background: #8f94fb;
+        color: #fff;
+    }
+
+.promoter-images {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .promoter-images img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+/* Add more styles as needed for a modern and beautiful design */

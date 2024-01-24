@@ -1,23 +1,56 @@
-.nav-menu{
-    width:100%;
-    display:flex;
-    align-items:center;
-    height:3rem;
-    gap:3rem;
-    background:pink;
+.nav {
+    display: flex;
+    background: Red;
+    background-color: #35424a; /* Adjust the color as per your design */
+    /*justify-content: space-between;*/
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.nav-menu {
+    background-color: #35424a; /* Adjust the color as per your design */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    font-size: 2rem;
-    font-family: 'Vidaloka', serif;
+    color: #ffffff; /* Adjust the color as per your design */
+    margin-right:auto;
+    font-size:2rem;
 }
 
-.login-button {
-    position:absolute;
-    right:1rem;
-    height: 2rem;
-    width:3rem;
-    color:white;
-    border-radius:5px;
+a {
+    color: #ffffff; /* Adjust the color as per your design */
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
     cursor:pointer;
+}
+
+    a:hover {
+        color: #67c7c2; /* Adjust the hover color as per your design */
+    }
+
+.login-button {
+    background-color: #67c7c2; /* Adjust the color as per your design */
+    color: #ffffff; /* Adjust the color as per your design */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius:5px;
+}
+
+    .login-button:hover {
+        background-color: #35424a; /* Adjust the hover color as per your design */
+    }
+@media only screen and (min-width: 768px) {
+    .nav-menu {
+        justify-content: center;
+        width: 50%;
+    }
 }
