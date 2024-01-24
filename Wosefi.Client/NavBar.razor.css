@@ -19,6 +19,7 @@
     color: #ffffff; /* Adjust the color as per your design */
     margin-right:auto;
     font-size:2rem;
+    cursor:pointer;
 }
 
 a {
